@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>JoyceMov</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="app">
+        <div class="app-header">
+          <p class="logo">Joyce<span>App</span></p>
+        </div>
+      </div>
+      <div class="search-container">
+        <div class="search-el">
+          <h3>Choose Movie</h3>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search A Movie Title"
+            id="search"
+            onkeyup="findMovies()"
+            onclick="findMovies()"
+          />
+          <div class="search-list" id="search-list">
+            <!-- <div class="search-item">
+              
+              <div class="search-thumbnail">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_FMjpg_UX1000_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="item-info">
+                <h3>The Amazing Spider-Man</h3>
+                <p>2012</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="result-container">
+          <div class="result-grid" id="result-grid">
+            <!-- <div class="movie-poster">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_FMjpg_UX1000_.jpg"
+                alt="movie poster"
+              />
+            </div>
+            <div class="movie-info">
+              <h3 class="movie-title">The Amazing Spider-Man</h3>
+              <ul class="movie-misc-info">
+                <li class="year">Year: 2012</li>
+                <li class="rated">Ratings: 6.9</li>
+                <li class="released">Released: 03 July 2012</li>
+              </ul>
+              <p class="genre"><b>Genre:</b> Action, Adventure</p>
+              <p class="writer">
+                <b>Writer:</b> James Vanderbilt, Alvin Sargent, Steve Kloves
+              </p>
+              <p class="actors">
+                <b>Actors:</b> Andrew Garfield, Emma Stone, Rhys Ifans
+              </p>
+              <p class="plot">
+                <b>Plot:</b> After Peter Parker is bitten by a genetically
+                altered spider, he gains newfound, spider-like powers and
+                ventures out to save the city from the machinations of a
+                mysterious reptilian foe.
+              </p>
+              <p class="language"><b>Language:</b> English</p>
+              <p class="awards">
+                <b><i class="fas fa-award"></i></b>
+                Nominated for 1 Oscar
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
